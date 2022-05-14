@@ -178,9 +178,3 @@ int main(){
     traverse_list(head);
 
 }
-
-
-
-
-
-
