@@ -10,22 +10,14 @@
    };
    
    Node *create_node(int data){
-
         Node *new_node = (Node *)malloc(sizeof(Node));
-
         if (new_node == NULL){
-
             printf("Error!Node is not created\n");
-
             exit(1);
         }
-
         new_node->data = data;
-
         new_node->left = NULL;
-        
         new_node->right = NULL;
-
         return new_node;
    }
    
@@ -67,7 +59,6 @@
        }
    }
    
-   
    Node *create_tree(){
        
       Node *two = create_node(2);
@@ -89,7 +80,6 @@
       add_left_child(seven, one);
       add_right_child(seven, six);
       
-     
       Node *eight = create_node(8);
       Node *three = create_node(3);
       Node *four = create_node(4);
@@ -113,6 +103,3 @@
       return 0;
        
    }
-   
-
-   
